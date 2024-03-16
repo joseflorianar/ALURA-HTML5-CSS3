@@ -24,31 +24,29 @@
         <form>
 
             <label for="nombreyapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreyapellido">
+            <input type="text" id="nombreyapellido" class="input-padron">
 
             <label for="email">Correo electronico</label>
-            <input type="text" id="email">
+            <input type="text" id="email" class="input-padron">
 
             <label for="telefono">Telefono</label>
-            <input type="text" id="telefono">
+            <input type="text" id="telefono" class="input-padron">
 
             <label for="sms">Mensaje</label>
-            <textarea id="sms" cols="70" rows="10"></textarea>
+            <textarea id="sms" cols="70" rows="10" class="input-padron"></textarea >
 
-            <div>
+            <div class="cnt">
                 <p>¿Comó le gustaria ser contactado?</p>
 
-                <label for="radio-email">Email</label>
-                <input type="radio" name="contacto" value="email" id="radio-email">
-    
-                <label for="radio-telefono">Telefono</label>
-                <input type="radio" name="contacto" value="telefono" id="radio-telefono">
-    
-                <label for="radio-whatsapp">WhatsApp</label>
-                <input type="radio"name="contacto" value="WhatsApp" id="radio-whatsapp">
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+                
+                <label for="radio-whatsapp"><input type="radio"name="contacto" value="WhatsApp" id="radio-whatsapp">WhatsApp</label>
+                
             </div>
 
-            <label ><input type="checkbox" >Le gustaria recibir novedades de la Barberia Alura</label>
+            <label class="checkbox"><input type="checkbox" >Le gustaria recibir novedades de la Barberia Alura</label>
             <input type="submit"  value="Enviar formulario">
 
         </form>
