@@ -166,7 +166,7 @@ td, th{
 .titulo-principal{
     text-align: center;
     font-size: 2em;
-    margin: 1em 0 1em;
+    margin: 0 0 1em;
     clear: left;
 }
 
@@ -180,6 +180,14 @@ td, th{
 
 .principal em{
     font-style: italic;
+}
+.mapa{
+    padding: 3em 0;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
 }
 
 .utensilios{
