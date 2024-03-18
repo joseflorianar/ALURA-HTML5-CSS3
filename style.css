@@ -227,12 +227,21 @@ td, th{
     line-height: 1.5;
 }
 
+.items::before{
+    content:"★ ";
+}
+
 .items:first-child{
     font-weight: bold;
 }
 
 .imagen-diferenciales{
     width: 60%;
+    transition: 400ms;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
 }
 
 .video{
@@ -247,4 +256,19 @@ td, th{
 .main-contacto{
     width: 940px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
 }
